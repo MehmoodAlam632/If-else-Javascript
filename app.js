@@ -78,3 +78,45 @@
 // } else {
 //   console.log("not allow");
 // }
+
+// var x = +prompt("Enter your number");
+// if(x >= 10){
+//         document.write("X is greater");
+// } else {
+//         document.write("X is smaller");
+// }
+
+// var x = +prompt();
+// if(x === 30) { 
+//         document.write("X is same");
+// } else {
+//         document.write("X is not same");
+// }
+
+// var name = "Mehmood Alam";
+// var namE = "Sania";
+// var gender = "Male";
+// var genDer = "Female";
+// if(gender == "Female"){
+//         document.write("Hello Mr " + name);
+// } else {
+//         document.write("Hello Miss " + namE);
+
+// }
+
+var per = +prompt();
+if(per >= 80 && per <= 100){
+        document.write("You are A-One Grade Execellent");
+} else if(per >= 70 && per < 80){
+        document.write("You are A Grade Very Good");
+} else if(per >= 60 && per < 70){
+        document.write("You are B Grade Good");
+} else if (per >= 50 && per < 60){
+        document.write("You are C Grade Fair");
+} else if(per >= 40 && per < 50){
+        document.write("You are D Grade Not Bad");
+} else if (per < 40){
+        document.write("You are Fail");
+}else{
+        document.write("Please Enter valid percentage");
+}
